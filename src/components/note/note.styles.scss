@@ -1,0 +1,41 @@
+.note{
+    margin: 20px 40px;
+    
+    border: 1px solid green;
+    width: 35%;
+    height: 200px;
+    padding-bottom: 10px;
+}
+
+.top{
+    width: 100%;
+    padding-top: 5px;
+    border-bottom: 0.5px solid gray;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.date{
+    padding-left: 5px;
+}
+.buttons{
+    padding-right: 10px;
+
+    & button{
+        margin: 0 2px;
+    }
+}
+.content{
+    height: 165px;
+    word-wrap: break-word;
+    padding: 4px 7px 0 7px;
+    overflow-y: auto;
+}
+
+.myInput{
+    resize: none;
+    border: none;
+    outline:  none !important;
+    width: 98%;
+    height: 100%;
+}
